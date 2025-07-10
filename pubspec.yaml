@@ -1,4 +1,4 @@
-name: e_commerce
+name: my_app3
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -33,9 +33,22 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
 
-dev_dependencies:
+  cupertino_icons: ^1.0.8
+  dots_indicator:  ^4.0.1
+  get:
+  
+  bloc: 
+  http: 
+  code_builder: ^4.10.1
+  flutter_bloc:
+  equatable:
+  ticket_widget: ^1.0.2
+  toggle_switch: ^2.3.0
+  flutter_gen_runner: ^5.10.0
+  scroll_navigation: ^1.3.2
+  awesome_navigation_bar: ^1.0.4
+  sort_pubspec_dependencies: ^0.0.1
   flutter_test:
     sdk: flutter
 
@@ -51,11 +64,14 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/img/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+   
 
   # To add assets to your application, add an assets section, like this:
   # assets:
