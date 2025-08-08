@@ -5,12 +5,16 @@ class AppText extends StatelessWidget {
   double height;
   final String text;
   Color color;
-    AppText({
+  final TextOverflow overFlow;
+  
+   AppText({
     Key? key,
     this.size=12,
     this.height=1.2,
     required this.text,
+    this.overFlow = TextOverflow.ellipsis,
     this.color= const Color(0xFFccc7c5),
+    
     }) :super(key: key);
 
  @override

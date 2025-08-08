@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:my_app3/pages/food/popular_food_detail.dart';
 //import 'package:my_app3/pages/home/main_food_page.dart';
 import 'package:get/get.dart';
+import 'package:my_app3/pages/home/food_page_body.dart';
+import 'package:my_app3/pages/home/main_food_page.dart';
 
 
 void main() {

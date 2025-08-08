@@ -15,8 +15,8 @@ class AppColumn extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        AppLargeText(text: text, size:Dimensions.font26),
-        SizedBox(height: Dimensions.height10),
+        AppLargeText(text: text, size:26),
+        SizedBox(height: 10),
 
         // Star rating and comment count
         Row(
@@ -39,8 +39,7 @@ class AppColumn extends StatelessWidget {
             AppText(text: "comments"),
           ],
         ),
-        SizedBox(height: Dimensions.height10),
-
+        SizedBox(height: 10),
         // Info row
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
