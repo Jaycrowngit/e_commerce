@@ -37,11 +37,14 @@ class _ExpandableTextWidgetState extends State<ExpandableTextWidget> {
   Widget build(BuildContext context) {
     return Container(
       child: secondHalf.isEmpty
-          ? AppText(text: firstHalf)
+          ? AppText(color:AppColors.paraColor,text: firstHalf)
           : Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 AppText(
+                  color: AppColors.paraColor,
+                  height:1.8,
+                  size: 15,
                   text: hiddenText
                       ? (firstHalf + "...")
                       : (firstHalf + secondHalf),
@@ -56,7 +59,6 @@ class _ExpandableTextWidgetState extends State<ExpandableTextWidget> {
                     children: [
                       AppText(
                         text: hiddenText ? "Show more" : "Show less",
-                        color: AppColors.mainColor,
                       ),
                       Icon(
                         hiddenText

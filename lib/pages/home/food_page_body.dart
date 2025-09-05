@@ -18,7 +18,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
   final PageController pageController = PageController(viewportFraction: 0.85);
   double _currPageValue = 0.0;
   final double _scaleFactor = 0.8;
-  final double _height =Dimensions.pageViewContainer;
+  final double _height = 0;
 
   @override
   void initState() {
